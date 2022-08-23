@@ -1,0 +1,143 @@
+
+
+h3{
+
+    text-align: center;
+
+
+}
+    
+    #b8{
+
+
+text-align: center;
+
+    }
+    
+    
+    #b1{/*PARA LLAMAR UN ID ES CON #*/
+        color:red;
+        border-radius: 50px;
+        border:2px solid rgb(71, 20, 190);/*GROSOR DEL BORDE */
+        background: rgb(238, 255, 0);
+        padding: 20px;/*ANCHO */
+        width: 200px;/*LARGO*/
+        height: 100px;/*ALTO*/
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 5px 5px ;   /*SOMBRAS A LA CAJA */
+        }
+        #b2{/*PARA LLAMAR UN ID ES CON #*/
+               color:blue;
+          
+            border:2px solid rgb(71, 20, 190);/*GROSOR DEL BORDE */
+            background: rgb(0, 255, 55);
+            padding: 20px;/*ANCHO */
+            width: 200px;/*LARGO*/
+            height: 100px;/*ALTO*/
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 5px 5px 40px;   /*SOMBRAS A LA CAJA */
+            }
+            #b3{/*PARA LLAMAR UN ID ES CON #*/
+    
+                border-radius: 50px;
+                border:2px solid rgb(71, 20, 190);/*GROSOR DEL BORDE */
+                background: rgb(47, 0, 255);
+                padding: 20px;/*ANCHO */
+                width: 200px;/*LARGO*/
+                height: 100px;/*ALTO*/
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                box-shadow: 5px 5px 10px;   /*SOMBRAS A LA CAJA */
+                }
+                #b4{/*PARA LLAMAR UN ID ES CON #*/
+    
+                   
+                    border:2px solid rgb(71, 20, 190);/*GROSOR DEL BORDE */
+                    background: rgb(0, 204, 255);
+                    padding: 20px;/*ANCHO */
+                    width: 200px;/*LARGO*/
+                    height: 100px;/*ALTO*/
+                    text-align: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    box-shadow: -10px -10px 5px black inset;   /*SOMBRAS A LA CAJA */
+                    }
+                    #b5{/*PARA LLAMAR UN ID ES CON #*/
+    
+                        
+                        border:2px solid rgb(71, 20, 190);/*GROSOR DEL BORDE */
+                        background: rgb(224, 133, 15);
+                        padding: 20px;/*ANCHO */
+                        width: 200px;/*LARGO*/
+                        height: 100px;/*ALTO*/
+                        text-align: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                        box-shadow: 32px 0 0 red,
+                        64px 0 0 gold;;   /*SOMBRAS A LA CAJA */
+                        }
+                        #b6{/*PARA LLAMAR UN ID ES CON #*/
+    
+                            border-radius: 50px;
+                            border:2px solid rgb(70, 8, 17);/*GROSOR DEL BORDE */
+                            background: rgb(90, 124, 9);
+                            padding: 20px;/*ANCHO */
+                            width: 200px;/*LARGO*/
+                            height: 100px;/*ALTO*/
+                            text-align: center;
+                            margin-left: auto;
+                            margin-right: auto;
+                            box-shadow: 5px 5px 10px 15px; 
+                            
+                            }
+
+                            #b7{/*PARA LLAMAR UN ID ES CON #*/
+                                color:white;
+                                border-radius: 50px;
+                                border:2px solid rgb(70, 8, 17);/*GROSOR DEL BORDE */
+                                background: rgb(21, 19, 138);
+                                padding: 20px;/*ANCHO */
+                                width: 200px;/*LARGO*/
+                                height: 100px;/*ALTO*/
+                                text-align: center;
+                                margin-left: auto;
+                                margin-right: auto;
+                                box-shadow: 0px 30px 10px -20px red; 
+                                
+                                }
+                                #b88{/*PARA LLAMAR UN ID ES CON #*/
+                                    color:white;
+                                    border-radius: 50px;
+                                    border:2px solid rgb(70, 8, 17);/*GROSOR DEL BORDE */
+                                    background: rgb(21, 19, 138);
+                                    padding: 20px;/*ANCHO */
+                                    width: 200px;/*LARGO*/
+                                    height: 100px;/*ALTO*/
+                                    text-align: center;
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                    box-shadow: inset 0px 0px 20px 0px rgb(245, 231, 231); 
+                                    
+                                    }
+
+                                    #b9{/*PARA LLAMAR UN ID ES CON #*/
+                                        color:white;
+                                       
+                                        border:2px solid rgb(70, 8, 17);/*GROSOR DEL BORDE */
+                                        background: rgb(32, 180, 190);
+                                        padding: 20px;/*ANCHO */
+                                        width: 200px;/*LARGO*/
+                                        height: 100px;/*ALTO*/
+                                        text-align: center;
+                                        margin-left: auto;
+                                        margin-right: auto;
+                                        box-shadow:  5px 5px red,
+                                        10px 10px rgb(112, 4, 235),14px 14px
+                                        rgb(202, 173, 9); 
+                                        
+                                        }

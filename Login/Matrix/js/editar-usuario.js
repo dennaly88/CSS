@@ -1,0 +1,13 @@
+(function(){
+
+   $(function(){
+
+    $('#danny').modal()
+
+    });
+
+}());
+
+
+
+

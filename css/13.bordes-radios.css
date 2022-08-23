@@ -1,0 +1,72 @@
+
+
+.uno{/*PARA LLAMAR UNA CLASE .*/
+
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+    
+    }
+    
+    
+    #b1{/*PARA LLAMAR UN ID ES CON #*/
+    
+    border-radius: 25px;/*TIPO DE FORMA DE REDONDO */
+    background: cyan;
+    padding: 20px;/*ANCHO */
+    width: 300px;/*LARGO*/
+    height: 300px;/*ALTO*/
+    }
+    
+    #b2{/*PARA LLAMAR UN ID ES CON #*/
+    
+        border-radius: 50px;
+        border:2px solid rgb(71, 20, 190);/*GROSOR DEL BORDE */
+        background: rgb(238, 255, 0);
+        padding: 20px;/*ANCHO */
+        width: 300px;/*LARGO*/
+        height: 300px;/*ALTO*/
+        }
+    
+        #b3{/*PARA LLAMAR UN ID ES CON #*/
+    
+            border-radius: 85px;
+            border:2px solid rgb(20, 164, 190);/*GROSOR DEL BORDE */
+            background-image: url("/imagenes/ju.jpg");/*PONER FONDO */
+            padding: 20px;/*ANCHO */
+            width: 300px;/*LARGO*/
+            height: 300px;/*ALTO*/
+            color:black ;
+            }
+    
+            #b4{/*PARA LLAMAR UN ID ES CON #*/
+    
+                border-top-right-radius: 55px;
+                border-top-left-radius: 100 px;
+
+
+
+                background: rgb(23, 179, 119);
+                border:2px solid rgb(20, 164, 190);/*GROSOR DEL BORDE */
+                padding: 20px;/*ANCHO */
+                width: 300px;/*LARGO*/
+                height: 30px;/*ALTO*/
+                height: 300px;/*ALTO*/
+                
+                }
+                #b5{/*PARA LLAMAR UN ID ES CON #*/
+                    border-radius: 85px 50px;
+                    background: rgb(25, 27, 26);
+                    border:2px solid rgb(190, 12, 12);/*GROSOR DEL BORDE */
+                    padding: 20px;/*ANCHO */
+                    width: 300px;/*LARGO*/
+                    height: 30px;/*ALTO*/
+                    height: 300px;/*ALTO*/
+                    color: aliceblue;
+                    
+                    }
+        
+    
+    

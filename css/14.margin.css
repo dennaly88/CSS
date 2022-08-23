@@ -1,0 +1,78 @@
+/*
+LOS CUARO LADOS POSIBLES A LOS MARGENES 
+
+
+
+margin-top: MARGEN SUPERIOR
+
+margin-right: MARGEN DERECHO 
+
+margin_bottom:  MARGEN INFERIOR 
+
+margin-left:  MARGEN IZQUIERDO
+
+
+4 VALORES  margin: 25px   50px     75px     100px;       
+                    TOP  RIGHT    BOTTOM    LEFT
+
+
+3 VALORES    margin: 25px     50px        75px ; 
+                    TOP     LEFT/RIGHT    BOTTOM  
+
+
+2 VALORES    margin:    25px             50px ; 
+                    TOP/ BOTTOM     LEFT/RIGHT   
+
+
+1 VALORES    margin:    25px;
+                TOP/ BOTTOM/LEFT/RIGHT
+
+
+
+*/
+
+
+
+.caja1{
+    background-color: lightblue;
+    width:100px;/*LARGO */
+    height: 100px;/*ANCHO*/
+    border: 1px solid black;
+    margin-top: 100px;/*MARGEN SUPERIOR*/
+  
+}
+    
+
+    .caja2{
+        background-color: lightblue;
+        width:100px;/*LARGO */
+        height: 100px;/*ANCHO*/
+        border: 1px solid black;
+        margin-right : 300px;/* MARGEN DERECHO */
+      
+        
+        
+        }
+
+
+        .caja3{
+            background-color: lightblue;
+            width:100px;/*LARGO */
+            height: 100px;/*ANCHO*/
+            border: 1px solid black;
+            margin-left : 300px;/*MARGEN IZQUIERDO*/
+            
+          
+            
+            
+            }
+            .caja4{
+                background-color: lightblue;
+                width:100px;/*LARGO */
+                height: 100px;/*ANCHO*/
+                border: 1px solid black;
+                margin-bottom : 200px;/*MARGEN INFERIOR*/
+              
+                
+                
+                }

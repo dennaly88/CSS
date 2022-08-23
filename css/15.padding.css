@@ -1,0 +1,44 @@
+
+
+
+
+  .caja1{
+    
+    color:black;
+    width:100px;/*LARGO */
+    height: 100px;/*ANCHO*/
+    padding: 45px;/*RELLENO DE LA ZONA */
+    border: solid ;/*BORDE COLOR TAMAÑO Y ESTILO */
+    
+    
+    }
+
+    .caja2{
+    
+        color:black;
+        width:100px;/*LARGO */
+        height: 100px;/*ANCHO*/
+        padding: 40px 10px;/*RELLENO DE LA ZONA */
+        border: solid ;/*BORDE COLOR TAMAÑO Y ESTILO */
+        
+        
+        }
+
+
+        .caja3{
+    
+            color:black;
+            width:100px;/*LARGO */
+            height: 100px;/*ANCHO*/
+            padding: 20px 70px 5px;/*RELLENO DE LA ZONA */
+            border: solid ;/*BORDE COLOR TAMAÑO Y ESTILO */
+            
+            
+            }
+
+
+
+
+
+
+    

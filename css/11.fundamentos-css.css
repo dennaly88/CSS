@@ -1,0 +1,73 @@
+/*COMO FUNCIONA CSS ESPECIFICO  EN FORMA CASCADA*/
+
+
+/*POR ETIQUETA*/
+
+
+/*POR EL EJEMPLO EL VALOR ES EL SIGUIENTE 
+
+ETIQUETAS =  001
+CLASES    =  010
+ID        =  100
+ESTILOS EN LINEA 1000
+! important TIENE PRIORIDAD DE TODO 
+*/
+
+
+
+h1.clase#id{/*ASI DEBE DE SER LOS ESTILOS LOS BUENOS FUNDAMENTOS */
+
+
+    background-color: burlywood;
+    color: black;
+ }
+
+h1{
+
+background-color: blue !important;/*ESTO SIGNIFICA PRIORIDAD POR SOBRE TODO */
+color:aliceblue  !important;
+
+}
+
+
+/*POR CLASE*/
+.clase{
+
+    background-color: rgb(19, 19, 20);
+    color:aliceblue;
+
+
+}
+/*POR ID*/
+#id{
+
+
+background-color: aqua;
+color: black;
+}
+
+ h1.clase{
+
+    background-color: crimson;
+    color :white;
+ }
+
+
+ h1#id{
+
+    background-color: crimson;
+    color :white;
+
+ }
+
+
+ /*HERENCIA EN CSS*/
+
+ .lista{
+
+   color: rgb(99, 11, 11);
+ }
+
+
+
+ 

@@ -1,0 +1,189 @@
+body{
+
+  background: black;/*COLOR DE FONDO*/
+  color:white;
+  
+  }
+
+
+
+.danny{
+
+    border: rgb(253, 248, 248) 1px solid;
+  width: 50%;
+    
+    }
+
+    .danny8{
+
+        border: white 1px solid;
+      width: 80%;
+        
+        }
+
+
+
+        .danny88{
+
+            border: white 1px solid;
+          width: 20em;
+            
+            }
+            .danny888{
+
+                border: white 1px solid;
+              width: 40em;
+                
+                }
+
+                .danny18{
+
+                    border: white 1px solid;
+                  width:200px;
+                    
+                    }
+
+
+                    .danny28{
+
+                        border: white 1px solid;
+                      width: 400px;
+                        
+                        }
+
+
+
+                      
+                        
+
+                        .danny08{
+
+                            border: white 1px solid;
+                            height: 50%;
+                            
+                            }
+                        
+                            .danny008{
+                        
+                                border: white 1px solid;
+                                height: 80%;
+                                
+                                }
+                        
+                        
+                        
+                                .danny018{
+                        
+                                    border: white 1px solid;
+                                    height: 20em;
+                                    
+                                    }
+                                    .danny028{
+                        
+                                        border: white 1px solid;
+                                        height: 40em;
+                                        
+                                        }
+                        
+                                        .danny038{
+                        
+                                            border: white 1px solid;
+                                            height:200px;
+                                            
+                                            }
+                        
+                        
+                                            .danny048{
+                        
+                                                border: white 1px solid;
+                                                height: 400px;
+                                                
+                                                }
+                                                .caja1{
+                                                  background: turquoise;
+                                                  color:black;
+                                                  width:200px;/*LARGO */
+                                                  height: 200px;/*ANCHO*/
+                                                  /*margin-right: auto;/*PEGAR CAJA A LA IZQUIERDA*/
+                                                  margin-left: auto;/*PEGAR A LA DERECHA */
+                                                  /*margin: 200px;/*SEPARACION*/
+                                                  /*padding-top: 200px;/*CRECE HACIA ABAJO*/
+                                                  /*padding-bottom: 200px;/*CRECE DESDE ABAJO */
+                                                  /*padding-left: 100px;/*CRECE PARA FORMA HORIZONTAL*/
+                                                  padding-right: 100px;/**/
+                                                  border:10px solid rgb(168, 27, 27);/*BORDE COLOR TAMAÑO Y ESTILO */
+                                                  border-right-color:black ;
+                                                  
+                                                  }
+                                                  
+                                                  .box1{
+                                                  
+                                                  
+                                                      background-color: tomato;
+                                                      color: white;
+                                                      margin-left: 200PX;
+                                                      
+                                                  }
+                                                  
+                                                  
+                                                   
+                                                  .caja2{
+                                                      background: rgb(64, 224, 64);
+                                                      color:white;
+                                                      width:200px;/*LARGO */
+                                                      height: 200px;/*ANCHO*/
+                                                      margin-right: auto;
+                                                     
+                                                      }
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      
+                                                      .box2{
+                                                      
+                                                      
+                                                          background-color: rgb(180, 36, 11);
+                                                          color: white;
+                                                          
+                                                      }
+                                                  
+                                                  
+                                                      .caja3{
+                                                          background: rgb(75, 64, 224);
+                                                          color:white;
+                                                          width:200px;/*LARGO */
+                                                          height: 200px;/*ANCHO*/
+                                                          margin-left: auto;
+                                                          margin-right: auto;
+                                                          }
+                                                  
+                                                          .caja4{
+                                                              background: rgb(211, 64, 224);
+                                                              color:white;
+                                                              width:200px;/*LARGO */
+                                                              height: 200px;/*ANCHO*/
+                                                              margin-right: auto;
+                                                              margin-left: auto;
+                                                              border-radius: 50px;
+                                                              }
+                                                              .caja5{
+                                                                  background: rgb(213, 224, 64);
+                                                                  color:white;
+                                                                  width:200px;/*LARGO */
+                                                                  height: 200px;/*ANCHO*/
+                                                                  margin-right: auto;
+                                                                  margin-left: auto;
+                                                                  border-radius: 100px;
+                                                                  }
+                                                                  .caja6{
+                                                                      background: rgb(64, 192, 224);
+                                                                      color:rgb(3, 3, 3);
+                                                                      width:200px;/*LARGO */
+                                                                      height: 200px;/*ANCHO*/
+                                                                      margin-left: auto;
+                                                                      margin-right: auto;
+                                                                      overflow-y: scroll;/*PONER LAS LETRAS EL 
+                                                                      PARRAFO DE FORMA DE UN MENU VERTICAL*/
+                                                                      overflow-X: scroll;/*MENU HORIZONTAL*/
+                                                                      }

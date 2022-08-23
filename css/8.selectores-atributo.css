@@ -1,0 +1,95 @@
+
+
+/*SELECTORES DE ATRIBUTO  QUE SON : 
+
+id 
+
+clase
+
+
+otros
+
+*/
+/*____________________________________________________________________________________________________________________*/
+
+/* POR ID */
+
+#danny{
+
+ background-color: cornflowerblue;
+}
+
+#jose{
+
+background-color: darkorchid;
+}
+
+#jimenez{
+background-color: dimgrey;
+}
+#gutierrez{
+
+background-color: goldenrod;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*POR CLASE */
+
+.danny8{
+
+background-color:rgb(221, 51, 51);
+
+}
+.danny88{
+
+    background-color:rgb(63, 55, 133);
+    
+    }
+
+.danny888{
+
+        background-color:rgb(236, 137, 6);
+
+    }
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+/*POR LLAVES */
+
+[href]{
+
+    background-color: rgb(0, 255, 221);
+}
+
+/*TAMBIEN PUEDE SER ASI*/
+[href="https://google.com"]
+{
+background-color: darksalmon;
+}
+
+
+
+/*TAMBIEN FUNCIONA ASI POR QUE EMPIECE POR UNA PALABRA DEL ATRIBUTO LO TOMA*/
+[href^=color]
+{
+
+background-color: crimson;
+}
+/*____________________________________________________________________________________________________________________*/
+
+/*NO IMPORTA DONDE SE ENCUENTRE LA PALABRA LO TOMA IGUAL*/
+
+[href*=danny]{
+
+
+    background-color: rgb(25, 238, 71);
+}
+
+/*SI TERMINA POR ESA PALABRA*/
+[href$=amor]{
+
+
+    background-color: rgb(100, 25, 238);
+}
+
+

@@ -1,0 +1,6 @@
+.nav1
+{  
+    background-color:#F00; /*whichever you want*/
+    opacity: 0.9; 
+    filter:(opacity=50);       
+}

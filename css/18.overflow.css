@@ -1,0 +1,25 @@
+
+
+.uno{/*PARA LLAMAR UNA CLASE .*/
+    text-align:center;
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+    justify-content: center;/*centrar*/
+    overflow-y: scroll;
+overflow-x: scroll;
+    background: cyan;
+    padding: 20px;/*ANCHO */
+    width: 350px;/*LARGO*/
+    }
+    
+    
+    #b8{/*PARA LLAMAR UN ID ES CON #*/
+        justify-content: center;
+        text-align:center;
+   
+    
+    height: 300px;/*ALTO*/
+    }
+    
+    
