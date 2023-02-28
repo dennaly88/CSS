@@ -1,0 +1,47 @@
+/*BACKGROUND-COLOR*/
+
+body{
+
+    background-image: url("../imagenes/background-image/1.jpg");
+}
+li{
+    background-image: url("../imagenes/background-image/2.jpg");
+    
+}
+
+h1 {
+    
+    background-image: url("../imagenes/background-image/4.jpg");
+
+  }
+  
+  div {
+
+    background-image: url("../imagenes/background-image/3.jpg");
+   color:aliceblue;
+    
+  }
+  aside{
+
+    background-image: url("../imagenes/background-image/4.jpg");
+  }
+  p {
+    
+
+    background-image: url("../imagenes/background-image/5.jpg");
+  }
+  footer{
+    background-image: url("../imagenes/background-image/6.jpg");
+    
+  }
+
+  div {
+    
+    opacity: 0.7;
+  }
+
+  MARQUEE{
+   
+    background-image: url("../imagenes/background-image/6.jpg");
+
+  }

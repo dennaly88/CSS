@@ -1,0 +1,88 @@
+div .danny{
+
+
+    background-color: aqua;
+}
+
+div  .danny1{
+
+background-color: darkorchid;
+
+
+}
+
+
+div .danny8{
+
+    background-color: rgb(26, 172, 13);
+}
+
+
+div .danny88{
+
+    background-color: rgb(172, 13, 13);
+}
+/*****************************************************************************************************************************************************/
+
+/*SELECTOR DE HERMANOSS*/
+.danny88 + .danny77{
+
+
+    background-color: blue;
+}
+
+.danny18 + .danny78{/*SELECTOR DE HERMANOSS*/
+
+
+    background-color: blue;
+}
+
+.danny48 ~ p{
+
+    background-color: rgb(238, 175, 93);
+}
+
+
+.danny48 ~ h3{
+
+    background-color: rgb(238, 175, 93);
+}
+
+/***********************************************************************************************************************************************************/
+
+                                                           /*SELECTORES HIJOS*/
+
+.container p{
+
+        background-color: rgb(175, 13, 13);
+                                                           }
+
+.container h4{
+
+background-color: rgb(187, 216, 25);
+                                                                                                               }
+
+/***********************************************************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

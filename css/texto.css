@@ -1,0 +1,40 @@
+img{
+
+    text-align: center;/*CENTRAR UN TEXTO*/
+
+}
+h2,h1{
+    text-align: center;
+}
+
+p.a {
+    text-align-last: right;
+  }
+  
+  p.b {
+    text-align-last: center;
+  }
+  
+  p.c {
+    text-align-last: justify;
+  }
+
+    p.d {
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+      }
+      
+      p.e {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      p.f{
+        text-align: center;
+        font-family: "Lucida Console", "Courier New", monospace;
+      }
+
+      p.g{
+        text-align: center;
+        font-family: "Lucida Console", "Courier New", monospace;
+      }

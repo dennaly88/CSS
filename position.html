@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="utf-8">
+        <title>Danny Jimenez | CSS</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        <link href="imagenes/favicon.ico" rel="icon">
+        <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+        <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ INICIO MENU DE NAVEGACION @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+ 
+  <header id="header">
+    <div class="container-fluid">
+      <div id="logo" class="pull-left">
+      <h6><a href="#" class="scrollto">Danny Jimenez | CSS <img width="50" height="50" src="imagenes/logo-css.png" /></a></h6>
+      </div>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+
+          <li class="menu-active"><a href="index.html">Principal</a></li>
+          <li><a href="conectar.html">Conectar</a></li>
+          <li><a href="background.html">Background</a></li>
+          <li><a href="color.html"> Color</a></li>
+          <li><a href="texto.html">Texto</a></li>
+          <li><a href="bordes.html">Bordes</a></li>
+          <li><a href="selectores.html">Selectores</a></li>
+          <li><a href="margin.html">Margin</a></li>
+          <li><a href="padding.html">Padding</a></li>
+          <li class="menu-has-children"><a href="temario.html">Temario</a>
+            <ul>
+              <li><a href="width.html">Width</a></li>
+              <li><a href="height.html">Height</a></li>
+              <li><a href="box-model.html">Box-Model</a></li>
+              <li><a href="overflow.html">Overflow</a></li>
+              <li><a href="display.html">Display</a></li>
+              <li><a href="outline.html">Outline</a></li>
+              <li><a href="text-align.html">Text-Align</a></li>
+              <li><a href="box-shadow.html">Box-Shadow</a></li>
+              <li><a href="position.html">Position</a></li>
+              <li><a href="fonz-size.html">Font-size</a></li>
+              <li><a href="table.html">Table</a></li>
+              <li><a href="formularios.html">Formularios</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+          </li>
+            </ul>
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  FINAL MENU DE NAVEGACION @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+  
+
+
+
+
+
+
+
+
+
+  <main id="main">
+
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  INICIO DIVISION @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+ 
+
+<section id="call-to-action" class="wow fadeIn">
+  <div class="container text-center">
+    <br><br><br>
+    <h2>Position</h2><br>
+  
+    <a class="cta-btn" href="#">Curso Completo CSS</a>
+  </div>
+</section>
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  FINAL DIVISION @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  INICIO PAGINA PRINCIPAL @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+<center>
+  
+    <section>
+       <p>
+        <section id="clients" class="wow fadeInUp">
+          <div class="container">
+        
+            <header class="section-header">
+              <h3>Position</h3>
+                <p class="text-justify">
+                    La propiedad CSS establece cómo se coloca un elemento en un documento. Las propiedades ,
+                    y determinan la ubicación final de los elementos posicionados.position top ,right ,bottom y left
+
+
+                    <br><br>
+
+                    <strong>Valores</strong>
+<br><br>
+<strong>static</strong><br>
+El elemento se coloca de acuerdo con el flujo normal del documento. Las propiedades top, right, bottom, lefty no tienen ningún efecto . Este es el valor predeterminado.z-index
+<br><br>
+<strong>relative</strong><br>
+El elemento se coloca de acuerdo con el flujo normal del documento y luego se desplaza con respecto a sí mismo en función de los valores de top, right, bottomy left. El desplazamiento no afecta la posición de ningún otro elemento; por lo tanto, el espacio dado para el elemento en el diseño de la página es el mismo que si la posición fuera static.
+
+Este valor crea un nuevo contexto de apilamiento cuando el valor de z-indexno lo es auto. Su efecto sobre los elementos table-*-group, table-row, table-column, table-celly table-captionno está definido.
+<br><br>
+<strong>absolute</strong><br>
+El elemento se elimina del flujo de documentos normal y no se crea ningún espacio para el elemento en el diseño de página. Está posicionado en relación con su ancestro posicionado más cercano , si lo hay; de lo contrario, se coloca en relación con el bloque contenedor inicial . Su posición final está determinada por los valores de top, right, bottomy left.
+
+Este valor crea un nuevo contexto de apilamiento cuando el valor de z-indexno lo es auto. Los márgenes de los cuadros absolutamente posicionados no se contraen con otros márgenes.
+<br><br>
+<strong>fixed</strong><br>
+El elemento se elimina del flujo de documentos normal y no se crea ningún espacio para el elemento en el diseño de página. Se coloca en relación con el bloque de contención inicial establecido por la ventana gráfica , excepto cuando uno de sus ancestros tiene una propiedad transform, perspectiveo filterconfigurada en algo diferente a none(consulte la especificación de transformación CSS ), o la will-changepropiedad está configurada en transform, en cuyo caso eso antepasado se comporta como el bloque contenedor. (Tenga en cuenta que existen incoherencias en el navegador que perspectivecontribuyen a la formación filterde bloques de contención). Su posición final está determinada por los valores de top, , y .rightbottomleft
+
+Este valor siempre crea un nuevo contexto de apilamiento . En los documentos impresos, el elemento se coloca en la misma posición en todas las páginas .
+<br><br>
+<strong>sticky</strong><br>
+El elemento se coloca de acuerdo con el flujo normal del documento y luego se desplaza en relación con su ancestro de desplazamiento más cercano y el bloque contenedor (ancestro más cercano a nivel de bloque), incluidos los elementos relacionados con la tabla, en función de los valores de top, right, bottomy left. El desplazamiento no afecta la posición de ningún otro elemento.
+
+Este valor siempre crea un nuevo contexto de apilamiento . Tenga en cuenta que un elemento fijo "se pega" a su antepasado más cercano que tiene un "mecanismo de desplazamiento" (creado cuando overflowes hidden, scroll, autoo overlay), incluso si ese antepasado no es el antepasado más cercano que se desplaza.
+<br><br>
+                </p>
+            </header>
+        </div>
+        </section>
+        <img src="imagenes/2.png"><br><br>
+        <img src="imagenes/CSS.jpg"><br><br>
+        
+        <img src="imagenes/position.png"><br><br>
+       
+        
+        <br><br>
+        
+<h4>
+        
+
+      </h4>
+        
+       </p>
+    </section>
+  
+  </center>
+
+
+
+
+
+
+<center>
+
+  <section>
+      
+  </section>
+<br>
+</center>
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  FINAL PAGINA PRINCIPAL @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+  </main>
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  INICIO DIVISION  2 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+ 
+<section id="call-to-action-2" class="wow fadeIn">
+  <div class="container text-center">
+    <h3>CSS</h3>
+  
+    <a class="cta-btn" href="#">Estilo en Cascada</a>
+  </div>
+</section>
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  FINAL DIVISION 2  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  INICIO LENGUAJES  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> 
+
+
+    <section id="clients" class="wow fadeInUp">
+      <div class="container">
+
+        <header class="section-header">
+            <center>
+          <strong>Danny Jimenez Desarrollador Web</strong> 
+        </center>
+        </header>
+
+        <div class="owl-carousel clients-carousel">
+          
+          <img src="img/lenguajes/html.png" alt="">
+          <img src="img/lenguajes/css.png" alt="">
+          <img src="img/lenguajes/js.png" alt="">
+          <img src="img/lenguajes/php.png" alt="">
+          <img src="img/lenguajes/java.png" alt="">
+          <img src="img/lenguajes/python.png" alt="">
+          <img src="img/lenguajes/c.png" alt="">
+          <img src="img/lenguajes/net.png" alt="">
+          <img src="img/bd/mariadb.png" alt="">
+          <img src="img/bd/mongodb.png" alt="">
+          <img src="img/bd/mysql.png" alt="">
+          <img src="img/bd/oracle.png" alt="">
+          <img src="img/bd/postgresql.png" alt="">
+          <img src="img/bd/sql.png" alt="">
+          <img src="img/bd/lite.png" alt="">
+        </div>
+
+      </div>
+    </section>
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  FIN LENGUAJES  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> 
+ <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  INICIO FOOTER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> 
+
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>CSS</h3>
+            <p>Las hojas de estilo en cascada (CSS, cascading style sheets) permiten crear páginas web atractivas.
+              Prerrequisitos:	Conocimientos básicos de informática, tener instalado el software básico, conocimientos
+               básicos de cómo trabajar con archivos y nociones de HTML .
+              
+              
+            
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Menu del Sistema</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Principal</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Conectar</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Background</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Color</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Texto</a></li>
+            </ul>
+          </div>
+         
+          
+          
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contacto</h4>
+            <p>
+              Danny Jimenez<br>
+              Cua, Miranda 1112<br>
+              Municipio Urdaneta<br>
+              <strong>Telefono:</strong> 0239-212-53-04<br>
+              <strong>Correo:</strong>dennaly88@gmail.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Información</h4>
+            <p>
+              
+              Desarrollador Back-end<br>
+              Desarrollador Front-end<br>
+              Desarrollador Full-Stack<br>
+              Desarrollador Web<br>
+              </p>
+           
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+
+        <img width="50" height="50" src="imagenes/logo-css.png" /> Curso Completo de | CSS<br>
+         <strong>2023. Danny Jimenez | Desarrollador Web</strong> &copy; Copyright
+      </div>
+      
+    </div>
+  </footer>
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  FIN FOOTER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ --> 
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  INICIO LIBRERIAS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+        <script src="lib/jquery/jquery.min.js"></script>
+        <script src="lib/jquery/jquery-migrate.min.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/superfish/hoverIntent.js"></script>
+        <script src="lib/superfish/superfish.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+        <script src="contactform/contactform.js"></script>
+        <script src="js/main.js"></script>
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  FIN LIBRERIAS @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+</body>
+</html>

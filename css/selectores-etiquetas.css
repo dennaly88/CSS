@@ -1,0 +1,55 @@
+/*SELECTORES SIMPLES */
+
+/*SELECTORES ELEMENTALES*/
+
+
+* /*SELECTOR UNIVERSAL*/
+{
+background-color: rgb(217, 228, 224);
+
+}
+/*----------------------------------------------------------------------------------*/
+
+
+/*SELECTORES DE ETIQUETA*/
+h2{
+
+
+background-color: rgb(0, 255, 234);
+}
+
+h3{
+background-color: rgb(207, 81, 92);
+
+}
+
+h4{
+background-color: rgb(53, 102, 53);
+
+}
+
+p{
+
+background-color: aquamarine;
+}
+
+aside{
+
+background-color: rgb(131, 78, 78);
+
+}
+
+ol{
+
+background-color: darkgoldenrod;
+
+}
+
+
+a{
+
+    background-color: rgb(113, 0, 128);
+    color: azure;
+}
+/*----------------------------------------------------------------------------------*/
+ 

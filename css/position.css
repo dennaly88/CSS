@@ -1,0 +1,65 @@
+h3{
+
+
+
+    text-align: center;
+}
+
+
+
+p{
+
+
+    text-align: center;
+}
+
+
+
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+  }
+  
+  #two {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: blue;
+  }
+
+  #two3 {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    background: blue;
+  }
+
+  #two4 {
+    position: fixed;
+    top: 700px;
+    left: 20px;
+    background: blue;
+  }
+
+  #two5 {
+    position: sticky;
+    top: 700px;
+    left: 20px;
+    background: blue;
+  }
+
+  #two6 {
+    position: static;
+    top: 700px;
+    left: 20px;
+    background: blue;
+  }
+
+  #two7 {
+    position: relative;
+    background: blue;
+    z-index: 1;
+  }

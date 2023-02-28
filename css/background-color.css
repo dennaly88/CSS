@@ -1,0 +1,25 @@
+/*BACKGROUND-COLOR*/
+
+body{ background-color: rgb(208, 202, 214); }
+
+li  { background-color: aqua;      }
+
+h1 { background-color: green;      }
+  
+div { background-color: lightblue; }
+  
+aside{ background-color: cornflowerblue;}
+
+p { background-color: yellow;}
+  
+footer{background-color: aquamarine;
+  }
+
+  div {
+    background-color: green;
+    opacity: 0.7;
+  }
+
+  MARQUEE{
+    background-color: rgb(136, 127, 255);
+  }

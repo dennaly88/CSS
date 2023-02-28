@@ -1,0 +1,12 @@
+
+
+/*
+CONECTAR A LA PAGINA HTML 
+
+*/
+* {           /*  (*) SELECTOR UNIVERSAL*/
+    margin: 10;/*MARGEN GENERAL*/
+    padding: 10;/*MARGEN INTERNO QUE TIENEN LOS ELEMENTOS */
+}
+
+
